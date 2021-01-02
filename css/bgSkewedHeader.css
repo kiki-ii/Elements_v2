@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.header {
+    height: 450px;
+    position: relative;
+    width: 100%;
+    background: url(https://source.unsplash.com/featured/?nature,leaves);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    
+}
+.header::before {
+    position: absolute;
+    content: '';
+    width: 78%;
+    height: 220px;
+    bottom: -30%;
+    left: 0;
+    background: #fff;
+    transform: skewY(10deg);
+}
+.header::after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 60%;
+    height: 200px;
+    bottom: -30%;
+    right: 0;
+    background:   #fff;
+    transform: skewY(-10deg);
+}
+
+.header img {
+    width: 100%;
+}
+
+.content {
+    background: #fff;
+    color: #262626;
+    height: 450px;
+    padding-top: 70px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    
+}
+.content h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    z-index: 10;
+}
+.content p {
+    padding: 0 150px;
+    line-height: 1.9;
+    z-index: 10;
+}
+/* 
+.content::before {
+    position: absolute;
+    content: '';
+    width: 78%;
+    height: 220px;
+    top: -87px;
+    left: 0;
+    background: rgb(199, 137, 137);
+    transform: skewY(10deg);
+}
+.content::after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 60%;
+    height: 200px;
+    top: -40px;
+    right: 0;
+    background:  rgb(233, 145, 145);
+    transform: skewY(-10deg);
+}
+ */

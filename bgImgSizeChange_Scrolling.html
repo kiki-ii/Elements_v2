@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bgImgSizeChange_Scrolling.css">
+</head>
+<body>
+    <div id="header"></div>
+    <section>
+    <h2>Background Size Change into Small when Scrolling</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid mollitia natus animi aperiam odit ducimus eaque 
+        quidem odio quod reprehenderit voluptas minima a nulla cum hic consequuntur, delectus quae corporis maiores est?
+         Excepturi cum tempore suscipit blanditiis et explicabo eaque repudiandae beatae ab facilis cumque veritatis quos
+          ex qui vitae maiores eveniet consequuntur dolore, nemo amet? Nesciunt quos eius voluptas porro a adipisci dicta 
+          sequi vel sapiente debitis ipsa saepe possimus fugit, dolore eos optio temporibus incidunt soluta accusamus 
+          deserunt qui commodi nulla. Necessitatibus vel sint sunt, cum doloribus eaque alias qui nobis, at magni et, ipsam exercitationem ducimus voluptas.
+        <br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam officia beatae hic harum cumque officiis excepturi odio odit voluptas,
+         nisi perferendis, consectetur quis et, veritatis ipsum! Similique magni distinctio quis culpa voluptatum consequuntur obcaecati nemo maxime reprehenderit 
+         tenetur soluta et iure nostrum repellendus eius, autem perspiciatis tempora nihil sunt, porro nisi consequatur doloribus sequi dicta! Accusamus animi 
+         at sed sit ipsa, dolore ea necessitatibus suscipit voluptates, provident iure cum voluptate vel ipsam. Nisi adipisci consequatur quasi inventore saepe
+          architecto quos veritatis vero sit, eius perspiciatis ea doloremque libero, qui nostrum ratione. Sapiente quibusdam commodi labore assumenda, 
+          dolore porro, accusamus sint architecto nemo, illum neque exercitationem velit. Suscipit necessitatibus beatae ipsam harum distinctio accusantium 
+          dolorem ullam numquam voluptas sapiente, inventore consequatur, adipisci sit dolore. Laboriosam aspernatur culpa odio non neque nam iste, officiis, 
+          quod modi amet dolores ipsam sit nisi soluta libero. Nesciunt necessitatibus sapiente architecto fugit accusantium obcaecati minus laudantium.
+          <br><br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam officia beatae hic harum cumque officiis excepturi odio odit voluptas,
+         nisi perferendis, consectetur quis et, veritatis ipsum! Similique magni distinctio quis culpa voluptatum consequuntur obcaecati nemo maxime reprehenderit 
+         tenetur soluta et iure nostrum repellendus eius, autem perspiciatis tempora nihil sunt, porro nisi consequatur doloribus sequi dicta! Accusamus animi 
+         at sed sit ipsa, dolore ea necessitatibus suscipit voluptates, provident iure cum voluptate vel ipsam. Nisi adipisci consequatur quasi inventore saepe
+          architecto quos veritatis vero sit, eius perspiciatis ea doloremque libero, qui nostrum ratione. Sapiente quibusdam commodi labore assumenda, 
+          dolore porro, accusamus sint architecto nemo, illum neque exercitationem velit. Suscipit necessitatibus beatae ipsam harum distinctio accusantium 
+          dolorem ullam numquam voluptas sapiente, inventore consequatur, adipisci sit dolore. Laboriosam aspernatur culpa odio non neque nam iste, officiis, 
+          quod modi amet dolores ipsam sit nisi soluta libero. Nesciunt necessitatibus sapiente architecto fugit accusantium obcaecati minus laudantium.
+    </p>
+    </section>
+    <script>
+        const bg = document.getElementById('header');
+        window.addEventListener('scroll', function (){
+            bg.style.backgroundSize = 160 - +window.pageYOffset/12+'%';
+            bg.style.opacity = 1 - +window.pageYOffset/700 + '';
+        })
+    </script>
+</body>
+</html>

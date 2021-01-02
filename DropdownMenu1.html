@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/DropdownMenu1.css">
+</head>
+<body>
+    <div class="action">
+        <div class="profile" onclick="menuToggle();">
+            <img src="https://cdn.pixabay.com/photo/2015/09/02/13/08/woman-918896_960_720.jpg" alt="">
+        </div>
+        <div class="menu">
+            <h3>Someone Famous <br><span>Website Designer</span></h3>
+            <ul>
+                <li><img src="images/user.png" alt=""><a href="#">My Profile</a></li>
+                <li><img src="images/edit.png" alt=""><a href="#">Edit Profile</a></li>
+                <li><img src="images/envelope.png" alt=""><a href="#">Inbox</a></li>
+                <li><img src="images/settings.png" alt=""><a href="#">Settings</a></li>
+                <li><img src="images/question.png" alt=""><a href="#">Help</a></li>
+                <li><img src="images/log-out.png" alt=""><a href="#">Logout</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        function menuToggle(){
+            const toggleMemu = document.querySelector('.menu');
+            toggleMemu.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>
