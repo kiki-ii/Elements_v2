@@ -13,4 +13,4 @@ button, image Gallery, svg icon, text effects,
 
 * imageGallery  <br><img src="/__img_preview/imageGallery.png" width="" height=""></img> <br><br>
 
-* imageGallery1  <br><img src="/__img_preview/imageGallery1.png" width="" height=""></img> <br><br>
+* imageGallery1  <br><img src="/__img_preview/imageGallery_1.png" width="" height=""></img> <br><br>
